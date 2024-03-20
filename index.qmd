@@ -1,0 +1,62 @@
+---
+title: "Fawwaz MJ"
+subtitle: "Fiziksis | AI Scientist"
+image: img/ProfileImage_1.png
+
+
+about:
+  id: hero-heading
+  template: trestles
+  #image: img/ProfileImage_1.jpg
+  image-width: 15em
+  image-shape: round
+
+  links:
+    - icon: bi bi-linkedin
+      href: https://www.linkedin.com/in/fawwazmj/         
+    - icon: bi bi-twitter-x
+      href: https://twitter.com/kuarkdelima
+    - icon: github
+      href: https://github.com/fawwazmj
+    - icon: envelope
+      text: "fawwazmj@outlook.com"
+      href: mailto:fawwazmj@outlook.com
+
+
+
+email-obfuscation: javascript
+---
+
+## Bio
+
+I currently work on building, understanding, and integrating machine learning/artificial intelligent systems.
+
+I'm interested in the intersection of machine learning, particle physics and philosophy. 
+
+
+## Experience
+
+-   [Twistcode Technologies](https://twistcode.com/)
+-   [Techna Analytics](https://mdlabs.com.my/)
+
+## Select Publications
+
+-   **LogAbout mapping of Self Quotient Image.** Mohd Amir Fawwaz Mat Jusoh, Mohammad Shazri Shahrir, Fazly Mohd Yusop, Chai Tong Yuen; doi: <https://doi.org/10.1109/ICCIS.2010.5518582>
+
+
+###### [See all publications here.](publications/publications.qmd)
+
+## Education
+
+Jabatan Fizik, 
+</br>
+Universiti Malaya, Kuala Lumpur
+
+
+#### MSc (Abandon)
+
+Understanding rare particle production (pentaquark).
+
+#### BSc
+
+Applied Physics, High Energy Physics.

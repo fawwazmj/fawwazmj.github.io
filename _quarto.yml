@@ -1,0 +1,71 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "**Fawwaz**"
+  favicon: favicon_1.svg
+#  google-analytics: "G-E4M44W57FR"
+  twitter-card: 
+    creator: "@kuarkdelima"
+    image: "./img/ProfileImage_1.jpg"
+  open-graph: true
+
+
+  navbar:
+    link-external-newwindow: true
+    link-external-icon: true
+    right:
+    - href: index.qmd
+      text: Home
+    - href: publications/publications.qmd
+    - href: media/media.qmd
+    - href: projects/index.qmd
+      text: Projects
+    - text: "Connect"
+      menu:
+      - icon: bi bi-linkedin
+        text: LinkedIn
+        href: https://www.linkedin.com/in/fawwazmj/  
+        target: _blank           
+      - icon: bi bi-twitter-x
+        text: Twitter(X)
+        href: https://twitter.com/kuarkdelima
+        target: _blank
+      - icon: github
+        text: GitHub
+        href: https://github.com/fawwazmj
+        target: _blank
+      - icon: envelope
+        text: "nigel.gebodh@gmail.com"
+        href: mailto:nigel.gebodh@gmail.com
+        target: _blank   
+
+  page-footer:
+    left: "© Fawwaz, Made on Earth by a Human"
+
+  back-to-top-navigation: true
+
+
+
+
+format:
+  html:
+    link-external-newwindow: true
+    theme:
+      light: [cosmo,  styles/styles_light.scss]
+      dark:  [darkly, styles/styles_dark.scss]
+    css: styles.css
+    toc: true
+    toc_depth: 15
+    toc-expand: 6
+    toc_float: false
+    toc_smooth_scroll: true
+    toc_highlight: true
+    fig-align: center
+    navbar:
+      background: darkgray
+      link-external-newwindow: true
+    email-obfuscation: javascript
+
+
